@@ -13,3 +13,9 @@ This repo provides simulation source code and hardware design to replicate our r
 `hardware` contains all sources related to hardware
 - `holder-final.stl`: 3D model of the motion sensor holder
 - `imu.ino`: code for relaying IMU data
+
+`model` contains PyTorch implementation of authentication models
+- `DeepConv.py`: defines the challenge classification model
+- `VAE.py`: defines the anomaly detection model
+
+`tester` contains training/testing functions for authentication models
